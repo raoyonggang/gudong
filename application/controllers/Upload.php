@@ -7,7 +7,7 @@ use \QCloud_WeApp_SDK\Constants as Constants;
 
 class Upload extends CI_Controller {
     public function index() {
-        // 处理文件上传测试class
+        // 处理文件上传测试才
         $file = $_FILES['file']; // 去除 field 值为 file 的文件
 
         ini_set('upload_max_filesize', '10M');
